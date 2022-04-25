@@ -1,0 +1,343 @@
+html, body {
+    background: #fafafa;
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#auth-container {
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 1px;
+}
+
+#main-navbar {
+    background: #fff;
+    border-bottom: 1px solid rgba(0,0,0,.0975);
+}
+
+.post-container {
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+}
+
+.nav-icon a {
+    color: #262626;
+    font-size: 1.3em;
+    display: block;
+    margin-top: .2em;
+    margin-left: 1.2em;
+    font-weight: 100;
+}
+.nav-icon a:hover {
+    color: #1d5e72;;
+}
+#profile-box {
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.0975);
+    border-radius: 1px;
+    margin-top: 6em;
+}
+
+#user-posts #post-thumb {
+    background: #fff;
+}
+
+.errors{
+    font-size: 12px;
+    color:red;
+}
+.fas .fa-bars{
+    display: block!important;
+}
+
+.box_movil{
+    min-width: fit-content;
+}
+
+#popUp{
+    display: none;
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    transition: opacity 500ms;
+    z-index: 2;   
+}
+#confirmacion{
+    height: 300px;
+    width: 300px;
+    background-color: whitesmoke;
+    position:relative;
+    top: 200px;
+    left: 30%;
+
+    
+}
+
+.table_Dc{
+    width: 270px;
+}
+
+.table_ganancia{
+    width: 270px;
+    padding: 10px;
+    text-align: center
+}
+
+.item{
+    margin-top: 0px!important;
+    margin-left: auto;
+    margin-right: auto;   
+}
+.producto_detalle{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tabla_center{
+    max-width: 270px;
+}
+.errores{
+    background-color: #FFFF00;
+}
+
+.error{
+    font-size: 12px;
+    color:red;
+}
+.form-sign_up{
+   margin-top: 100px;
+   margin-right: auto;
+   margin-left: auto;
+   width: 300px;
+}
+.logo{
+    width: 150px;
+    align-self: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.img_logo{
+    width: 150px;
+}
+.nav_logo_img{
+    width: 50px;
+}
+.nav_logo{
+    width: 50px;
+    margin: 0px;
+}
+.title_signup{
+    margin-top: 100px;
+    margin-bottom: -60px!important;
+}
+.titles{
+    text-align: center;
+}
+
+.boton_mas{
+    margin-top: 30px;
+}
+.division{
+    border-top: .4px solid #d2bbbb;
+}
+.carrito{
+    padding: 20px;
+}
+
+.subtitle{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.menu_title{
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+}
+.div{
+    border-top: 2.4px solid #d2bbbb;
+}
+
+.edit_prod{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.borrar_producto{
+    display: flex;
+}
+
+.col-8{
+    max-width: 90%;
+}
+.check_borrar_p{
+    width: 20px;
+    margin:revert;
+}
+
+/*red grafica*/
+
+#container_api h4 {
+    text-transform: none;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+#container_api p {
+    text-transform: none;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.titulos_corrida{
+    margin-bottom: 0px!important;
+} 
+
+.boton_corridas{
+    margin-top: 0px!important;
+}
+.div_buttons_compra{
+    display:flex;
+    justify-content: space-around;
+}
+.buttons_compra{
+    background-color: #2E86C1;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+.b_terminar_compra{
+    background-color: #2EA8C1;
+    box-shadow: 10px 10px 8px #888888;
+}
+.compra_vacia{
+    margin: 0px;
+    text-align: center;
+}
+.centrar_btn{
+    margin: auto;
+    width: 73px;
+}
+.nombre_socio_red_activo{
+    font-size: 13px;
+}
+.pat_div{
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    border: 2px solid;
+
+}
+.pat_div_first{
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    border: 2px solid;
+    background-color: #1d5e72;
+    color:white;
+    font-weight: bold;
+}
+.contenedor_compras{
+    margin-top:40px;
+
+}
+.desactivar_compra{
+    margin-right: 10px;
+}
+.btn_desactivar_compras{
+    margin:30px;
+    margin-bottom: 3px;
+}
+.result{
+    color:green;
+    font-size: 16px;
+}
+.hide{
+    display: none;
+}
+
+#toSend{
+    display:none;
+    height: 100vh;
+    background-color: gray;
+    position: fixed;
+    z-index: 2000;
+    top:0px;
+    left:0px;
+    right: 0px;
+    bottom: 0px;
+    overflow:hidden;
+    opacity: 0.9;
+    overflow-y: hidden;
+}
+
+.loader {
+
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+
+}
+.espere{
+    text-align: center;
+    color:white;
+    font-weight: bolder;
+    margin: 20px;
+    font-size: 20px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.error_descarga{
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.negrita{
+    font-weight: bolder;
+}
+                           
+
+@media (min-width: 760px) {
+    .menu{
+        width: 40%;
+        margin:auto;
+    }
+    .box_movil{
+        max-width: 300px;
+    }
+    .table_Dc{
+        width: 100%;
+    }
+
+    .table_ganancia{
+        width: 100%;  
+    }
+    .tabla_center{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 700px;
+    }
+    .nav_logo{
+        width: 50px;
+        margin: 0px;
+    }
+}
