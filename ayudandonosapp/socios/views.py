@@ -8,7 +8,7 @@ import json
 from django.http import JsonResponse
 from google.cloud import bigquery
 from os import environ
-#import pandas, no se nec importar ._.
+import pandas
 from rest_framework.generics import get_object_or_404
 from .serializers import SocioSerializer
 
@@ -21,14 +21,15 @@ class SocioViewSet(mixins.CreateModelMixin,
                    mixins.DestroyModelMixin,
                    viewsets.GenericViewSet):
 
+
     lookup_field = 'socio_uiid'
-    environ["GOOGLE_APPLICATION_CREDENTIALS"] = "socios/ayudandonos-239f103044b1.json"
+    environ["GOOGLE_APPLICATION_CREDENTIALS"] = "socios/ayudandonos-b212e7ac5839.json"
     client = bigquery.Client()
+    
     serializer_class = SocioSerializer
  
-
     def list(self, request, *args, **kwargs):#se nec todos los params
-        
+        print('Cliente: ',self.client)
         query = "SELECT * FROM ayudandonos.Base_a.users"
         data_frame = self.client.query(query).result().to_dataframe()
         print(data_frame)
