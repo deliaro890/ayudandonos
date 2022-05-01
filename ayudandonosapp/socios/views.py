@@ -23,7 +23,8 @@ class SocioViewSet(mixins.CreateModelMixin,
 
 
     lookup_field = 'socio_uiid'
-    environ["GOOGLE_APPLICATION_CREDENTIALS"] = "socios/ayudandonos-b212e7ac5839.json"
+    #environ["GOOGLE_APPLICATION_CREDENTIALS"] = "socios/ayudandonos-b212e7ac5839.json"
+    environ["GOOGLE_APPLICATION_CREDENTIALS"] = "../ayudandonos-c1e786e1a5b5.json"
     client = bigquery.Client()
     
     serializer_class = SocioSerializer
